@@ -1,0 +1,40 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="60" cy="60" r="58" fill="#F5F5F5" stroke="#E5E5E5" stroke-width="2"/>
+  
+  <!-- Main Letter P -->
+  <g transform="translate(20, 20)">
+    <!-- P Vertical Stroke -->
+    <rect x="15" y="15" width="8" height="70" fill="#333333"/>
+    
+    <!-- P Top Horizontal -->
+    <rect x="15" y="15" width="35" height="8" fill="#333333"/>
+    
+    <!-- P Middle Horizontal -->
+    <rect x="15" y="40" width="30" height="6" fill="#333333"/>
+    
+    <!-- P Curved Part -->
+    <path d="M23 15 Q55 15 55 30 Q55 40 45 40 L23 40" 
+          fill="none" 
+          stroke="#333333" 
+          stroke-width="8" 
+          stroke-linecap="round"/>
+  </g>
+  
+  <!-- Decorative Script Text -->
+  <g transform="translate(30, 70)">
+    <path d="M5 15 Q15 5 25 15 Q35 25 45 15 Q55 5 65 15" 
+          fill="none" 
+          stroke="#0057FF" 
+          stroke-width="2" 
+          stroke-linecap="round"/>
+    
+    <!-- Small decorative dots -->
+    <circle cx="10" cy="20" r="1.5" fill="#EA4C89"/>
+    <circle cx="35" cy="20" r="1.5" fill="#EA4C89"/>
+    <circle cx="60" cy="20" r="1.5" fill="#EA4C89"/>
+  </g>
+  
+  <!-- Bottom accent line -->
+  <line x1="20" y1="100" x2="100" y2="100" stroke="#0057FF" stroke-width="3" stroke-linecap="round"/>
+</svg>
