@@ -273,11 +273,3 @@ function debounce(func, wait) {
         timeout = setTimeout(later, wait);
     };
 }
-
-// Apply debouncing to scroll events
-const debouncedScroll = debounce(() => {
-    updateActiveNav();
-    updateNavbar();
-}, 10);
-
-window.addEventListener('scroll', debouncedScroll);
